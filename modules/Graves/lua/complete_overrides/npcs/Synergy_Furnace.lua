@@ -3,6 +3,8 @@
 -- Custom work of Neckbeard (CatsEyeXI)
 -- Steal this and die.
 --------------------------------------
+-----------------------------------
+local ID = require("scripts/zones/Port_Jeuno/IDs")
 require("scripts/globals/npc_util")
 require("scripts/globals/utils")
 require("scripts/globals/status")

@@ -1,0 +1,11 @@
+# Add RUN/GEO relic armor to Dynamis
+INSERT INTO `mob_droplist` VALUES (3148,0,0,1000,27016,90); -- Bagua Mitaines   (Dynammis - San d'Oria)
+INSERT INTO `mob_droplist` VALUES (3149,0,0,1000,27018,90); -- Futhark Mitons   (Dynammis - San d'Oria)
+INSERT INTO `mob_droplist` VALUES (2558,0,0,1000,27368,90); -- Bagua Sandals    (Dynamis - Bastok)
+INSERT INTO `mob_droplist` VALUES (2558,0,0,1000,27370,90); -- Futhark Bottes   (Dynamis - Bastok)
+INSERT INTO `mob_droplist` VALUES (2553,0,0,1000,27192,90); -- Bagua Pants      (Dynamis - Windurst)
+INSERT INTO `mob_droplist` VALUES (2553,0,0,1000,27194,90); -- Futhark Trousers (Dynamis - Windurst)
+INSERT INTO `mob_droplist` VALUES (2543,0,0,1000,26664,90); -- Bagua Galero     (Dynamis - Jeuno)
+INSERT INTO `mob_droplist` VALUES (2543,0,0,1000,26666,90); -- Futhark Bandeau  (Dynamis - Jeuno)
+INSERT INTO `mob_droplist` VALUES (2552,0,0,1000,26840,90); -- Bagua Tunic      (Dynamis - Beaucedine)
+INSERT INTO `mob_droplist` VALUES (2552,0,0,1000,26842,90); -- Futhark Coat     (Dynamis - Beaucedine)
