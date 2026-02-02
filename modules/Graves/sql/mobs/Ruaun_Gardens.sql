@@ -1,0 +1,1 @@
+UPDATE mob_pools SET entityFlags = 131 WHERE poolid = 5650 AND name = 'Eschan_Gargouille';

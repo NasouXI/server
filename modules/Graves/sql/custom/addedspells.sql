@@ -1,0 +1,35 @@
+-- SCH
+UPDATE spell_list SET element = 7, validTargets = 1, skill = 34, AOE = 4, validTargets = 3, animation = 826 WHERE spellid = 495;
+-- PLD
+INSERT INTO `spell_list` VALUES (855,'enlight_ii',0x00000000000063000000000000000000000000000000,6,88,7,0,1,34,36,3000,30000,2,252,980,4000,0,35,1.00,0,0,0,204,0,'SOA');
+-- GEO
+INSERT INTO `spell_list` VALUES (870,'watera_iii',  0x00000000000000000000000000000000000000006600,2,153,6,0,4,36,312,3000,15000,2,0,902,2000,1,0,1.00,0,0,0,120,0,'SOA');
+INSERT INTO `spell_list` VALUES (869,'thundara_iii',0x00000000000000000000000000000000000000006600,2,152,5,0,4,36,476,3000,15000,2,0,900,2000,1,0,1.00,0,0,0,120,0,'SOA');
+INSERT INTO `spell_list` VALUES (868,'stonera_iii', 0x00000000000000000000000000000000000000006600,2,151,4,0,4,36,276,3000,15000,2,0,898,2000,1,0,1.00,0,0,0,120,0,'SOA');
+INSERT INTO `spell_list` VALUES (867,'aera_iii',    0x00000000000000000000000000000000000000006600,2,150,3,0,4,36,350,3000,15000,2,0,896,2000,1,0,1.00,0,0,0,120,0,'SOA');
+INSERT INTO `spell_list` VALUES (866,'blizzara_iii',0x00000000000000000000000000000000000000006600,2,149,2,0,4,36,432,3000,15000,2,0,894,2000,1,0,1.00,0,0,0,120,0,'SOA');
+INSERT INTO `spell_list` VALUES (865,'fira_iii',    0x00000000000000000000000000000000000000006600,2,148,1,0,4,36,390,3000,15000,2,0,892,2000,1,0,1.00,0,0,0,120,0,'SOA');
+-- BLM
+INSERT INTO `spell_list` VALUES (881,'aspir_iii',   0x00000066000000000000000000000000000000006300,2, 68,8,0,4,37, 21,3000,90000,228,228,248,2000,0,0,1.00,320,0,0,204,0,NULL);
+-- still wont cast aspir_iii, blm can cast not but not geo, wrong animation
+-- rdm master job spells
+INSERT INTO `spell_list` VALUES (894,'refresh_iii',0x00000000630000000000000000000000000000000000,6,29,7,0,1,3,80,7000,29000,0,0,118,2000,0,0,1.00,0,0,0,204,0,NULL);
+INSERT INTO `spell_list` VALUES (882,'distract_iii',0x00000000630000000000000000000000000000000000,2,154,2,0,4,35,84,4000,6000,0,0,934,4000,0,0,1.00,0,0,0,204,0,NULL);
+INSERT INTO `spell_list` VALUES (883,'frazzle_iii',0x00000000630000000000000000000000000000000000,2,155,8,0,4,35,90,4000,6000,0,0,936,4000,0,0,1.00,0,0,0,204,0,NULL);
+-- DRK
+UPDATE spell_list SET castTime = 500, animationTime = 500 WHERE name = 'absorb-acc';
+UPDATE spell_list SET castTime = 500, animationTime = 500 WHERE name = 'absorb-agi';
+UPDATE spell_list SET castTime = 500, animationTime = 500 WHERE name = 'absorb-attri';
+UPDATE spell_list SET castTime = 500, animationTime = 500 WHERE name = 'absorb-chr';
+UPDATE spell_list SET castTime = 500, animationTime = 500 WHERE name = 'absorb-dex';
+UPDATE spell_list SET castTime = 500, animationTime = 500 WHERE name = 'absorb-int';
+UPDATE spell_list SET castTime = 500, animationTime = 500 WHERE name = 'absorb-mnd';
+UPDATE spell_list SET castTime = 500, animationTime = 500 WHERE name = 'absorb-str';
+UPDATE spell_list SET castTime = 500, animationTime = 500 WHERE name = 'absorb-tp';
+UPDATE spell_list SET castTime = 500, animationTime = 500 WHERE name = 'absorb-vit';
+UPDATE spell_list SET jobs = 0x00006300000000000000000000000000000000000000 WHERE spellid = 358 AND name = 'hastega';
+UPDATE spell_list SET jobs = 0x00000000000000000000000063000000000000000000 WHERE spellid = 340 AND name = 'utsusemi_san';
+UPDATE spell_list SET jobs = 0x00000000000000000000000063000000000000000000 WHERE spellid = 342 AND name = 'jubaku_ni';
+UPDATE spell_list SET jobs = 0x00000000000000000000000063000000000000000000 WHERE spellid = 346 AND name = 'hojo_san';
+UPDATE spell_list SET jobs = 0x00000000000000000000000063000000000000000000 WHERE spellid = 349 AND name = 'kurayami_san';
+UPDATE spell_list SET jobs = 0x00000000000000000000000063000000000000000000 WHERE spellid = 351 AND name = 'dokumori_ni';

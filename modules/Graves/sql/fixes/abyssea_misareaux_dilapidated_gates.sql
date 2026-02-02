@@ -1,0 +1,1 @@
+UPDATE npc_list SET name = "Dilapidated_Gate_2" WHERE npcid = "17662739";

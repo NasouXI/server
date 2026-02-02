@@ -1,0 +1,5 @@
+-- Excalibur
+UPDATE item_mods SET value = "13" WHERE itemId = "18276" and modId = "431";
+INSERT INTO item_mods VALUES (18276,501,7);    -- ITEM_ADDEFFECT_CHANCE
+INSERT INTO item_mods VALUES (18276,950,7);    -- ITEM_ADDEFFECT_TYPE
+INSERT INTO item_mods VALUES (18276,499,7);    -- ITEM_SUBEFFECT

@@ -1,0 +1,22 @@
+UPDATE `mob_groups` SET `respawntime`='21600' WHERE `name`="Novv_the_Whitehearted";
+UPDATE `mob_groups` SET `respawntime`='21600' WHERE `name`="Zuug_the_Shoreleaper";
+-- make these mobs not automatically spawn on server startup
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Khimaira" AND `groupid`="59";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Cerberus" AND `groupid`="37";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Hydra" AND `groupid` ="38";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Simurgh" AND `groupid`="41";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Lord_of_Onzozo" AND `groupid`="16";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Shikigami_Weapon" AND `groupid`="18";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Tiamat" AND `groupid`="46";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Jormungand" AND `groupid`="40";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Vrtra" AND `groupid`="37";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Serket" AND `groupid`="41";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Argus" AND `groupid`="38";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Leech_King" AND `groupid`="39";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Gurfurlur_the_Menacing" AND `groupid`="47";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Medusa" AND `groupid`="83";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Gulool_Ja_Ja" AND `groupid`="54";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Bune" AND `groupid`="6";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Guivre" AND `groupid`="38";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Roc" AND `groupid`="41";
+UPDATE `mob_groups` SET `respawntime`= 0,`spawntype`= 128 WHERE `name`="Hundredfaced_Hapool_Ja" AND `groupid`="29";
